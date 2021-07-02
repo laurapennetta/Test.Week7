@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Luca</title>
+    <link rel="stylesheet" href="week7.css" />
+</head>
+<body>
+    <header>
+        <h1>Luca</h1>
+    </header>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="Test.Week7.html">Home</a></li>
+                <li><a href="Scheda.html">Scheda Tecnica</a></li>
+                <li><a href="Attori.html">Attori</a></li>
+                <li><a href="NewsLetter.html">NewsLetter</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br />
+    <form onsubmit="return false">
+        <table>
+            <caption>Iscriviti alla nostra NewsLetter!</caption>
+            <tbody>
+                <tr><th><label>Nome:</label></th><td><input type="text" id="storageKey" required /></td></tr>
+                <tr><th><label>Cognome:</label></th><td><input type="text" id="storageValue" required /></td></tr>
+                <tr><th><label>Email:</label></th><td><input type="email" /></td></tr>
+                <tr><th><label>Message:</label></th><td><textarea rows="3"></textarea></td></tr>
+            </tbody>
+        </table>
+        <br />
+        <br />
+        <center>
+            <input type="reset" value="&#10060;" id="tasto" />
+            <button onclick="save()">&#128077;</button>
+        </center>
+    </form>
+        <br /><br />
+        <footer>
+            Laura Pennetta
+        </footer>
+        <script src="script7.js"></script>
+</body>
+</html>
